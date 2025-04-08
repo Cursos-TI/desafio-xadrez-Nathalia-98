@@ -69,6 +69,23 @@ for (casa = 1; casa <= 8; casa++)
     printf("Rainha se moveu para: ESQUERDA\n");
 }
 
+//MOVIMENTAÇÃO DO CAVALO
+//A variável foi reinicializada
+//Para a movimentação do cavalo foi colocado o loop interno para a movimentação na vertical e o externo para a horizontal
+//A movimentação horizontal só ocorre após o termino da movimentação vertical no loop interno, finalizando o movimento
+
+casa = 1;
+
+printf("***MOVIMENTAÇÃO CAVALO***\n");
+
+while (casa--)
+{
+    for (int casa = 1; casa <=2; casa++)
+    {
+       printf("Cavalo se moveu para: CIMA\n");
+    }
+    printf("Cavalo se moveu para: DIREITA\n");
+}
 
 
 return 0;
